@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/MySQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/OracleDbConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Production.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/ActionVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/LoveStroryVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/VideoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -30,47 +30,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Calendar" value="1" />
           <entry key="ClazzSty" value="1" />
           <entry key="Override" value="1" />
           <entry key="PythonCouse" value="1" />
           <entry key="demeter" value="1" />
           <entry key="dependenceinversion" value="1" />
           <entry key="gengreantion" value="1" />
-          <entry key="java" value="54" />
-          <entry key="md" value="3" />
+          <entry key="java" value="65" />
+          <entry key="md" value="4" />
           <entry key="partten" value="1" />
+          <entry key="simplefactory" value="2" />
           <entry key="singlework" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="54" />
-          <entry key="Markdown" value="3" />
-          <entry key="UML" value="8" />
+          <entry key="JAVA" value="65" />
+          <entry key="Markdown" value="4" />
+          <entry key="UML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3407" />
-          <entry key="md" value="438" />
+          <entry key="java" value="3816" />
+          <entry key="md" value="515" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3407" />
-          <entry key="Markdown" value="438" />
+          <entry key="JAVA" value="3816" />
+          <entry key="Markdown" value="515" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="362">
-                <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="131">
+                <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,97 +80,164 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/DBConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/VideoFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="75">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/MySQLConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/ActionVideo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="100">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/OracleDbConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Production.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/xin.nimil.design.gengreantion">
+        <entry file="uml://JAVA/java.util.Calendar">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
-              <OriginalElement>xin.nimil.design.gengreantion</OriginalElement>
+              <OriginalElement>java.util.Calendar</OriginalElement>
               <nodes>
-                <node x="11.5" y="208.0">xin.nimil.design.gengreantion.Test</node>
-                <node x="13.0" y="104.0">xin.nimil.design.gengreantion.Production</node>
-                <node x="0.0" y="0.0">xin.nimil.design.gengreantion.DBConnection</node>
+                <node x="320.0" y="11.5">java.lang.Cloneable</node>
+                <node x="26.916666666666686" y="104.0">java.util.Calendar</node>
+                <node x="0.0" y="0.0">java.lang.Comparable</node>
+                <node x="187.0" y="11.5">java.io.Serializable</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="xin.nimil.design.gengreantion.Test" target="xin.nimil.design.gengreantion.Production">
-                  <point x="-43.5" y="-27.0" />
-                  <point x="-42.75" y="27.0" />
+                <edge source="java.util.Calendar" target="java.io.Serializable">
+                  <point x="2.8421709430404007E-14" y="-1004.5" />
+                  <point x="237.9166666666667" y="79.0" />
+                  <point x="243.5" y="79.0" />
+                  <point x="0.0" y="15.5" />
                 </edge>
-                <edge source="xin.nimil.design.gengreantion.Production" target="xin.nimil.design.gengreantion.DBConnection">
-                  <point x="0.0" y="-27.0" />
+                <edge source="java.util.Calendar" target="java.util.Calendar">
+                  <point x="0.0" y="1004.5" />
+                  <point x="237.91666666666669" y="2133.0" />
+                  <point x="6.916666666666686" y="2133.0" />
+                  <point x="6.916666666666686" y="1108.5" />
+                  <point x="-211.0" y="-0.0" />
+                </edge>
+                <edge source="java.util.Calendar" target="java.lang.Cloneable">
+                  <point x="140.66666666666663" y="-1004.5" />
+                  <point x="378.5833333333333" y="79.0" />
+                  <point x="373.0" y="79.0" />
+                  <point x="0.0" y="15.5" />
+                </edge>
+                <edge source="java.util.Calendar" target="java.lang.Comparable">
+                  <point x="-140.66666666666663" y="-1004.5" />
+                  <point x="97.25000000000006" y="79.0" />
+                  <point x="83.5" y="79.0" />
                   <point x="0.0" y="27.0" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-251.5" y="124.5" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="-128.0" y="204.0" />
               <SelectedNodes>
-                <node>xin.nimil.design.gengreantion.Test</node>
+                <node>java.util.Calendar</node>
               </SelectedNodes>
               <Categories>
-                <Category>Inner Classes</Category>
-                <Category>Properties</Category>
                 <Category>Methods</Category>
               </Categories>
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/LoveStroryVideo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/xin.nimil.design.creational.simplefactory">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>xin.nimil.design.creational.simplefactory</OriginalElement>
+              <nodes>
+                <node x="0.0" y="104.0">xin.nimil.design.creational.simplefactory.VideoFactory</node>
+                <node x="215.0" y="0.0">xin.nimil.design.creational.simplefactory.Video</node>
+                <node x="387.0" y="104.0">xin.nimil.design.creational.simplefactory.ActionVideo</node>
+                <node x="215.0" y="104.0">xin.nimil.design.creational.simplefactory.LoveStroryVideo</node>
+                <node x="195.4" y="208.0">xin.nimil.design.creational.simplefactory.Tests</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="xin.nimil.design.creational.simplefactory.Tests" target="xin.nimil.design.creational.simplefactory.ActionVideo">
+                  <point x="43.5" y="-27.0" />
+                  <point x="325.9" y="183.0" />
+                  <point x="463.0" y="183.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="xin.nimil.design.creational.simplefactory.LoveStroryVideo" target="xin.nimil.design.creational.simplefactory.Video">
+                  <point x="0.0" y="-27.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="xin.nimil.design.creational.simplefactory.Tests" target="xin.nimil.design.creational.simplefactory.VideoFactory">
+                  <point x="-43.5" y="-27.0" />
+                  <point x="238.9" y="183.0" />
+                  <point x="97.5" y="183.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="xin.nimil.design.creational.simplefactory.ActionVideo" target="xin.nimil.design.creational.simplefactory.Video">
+                  <point x="0.0" y="-27.0" />
+                  <point x="463.0" y="79.0" />
+                  <point x="341.66666666666663" y="79.0" />
+                  <point x="50.66666666666663" y="27.0" />
+                </edge>
+                <edge source="xin.nimil.design.creational.simplefactory.VideoFactory" target="xin.nimil.design.creational.simplefactory.Video">
+                  <point x="0.0" y="-27.0" />
+                  <point x="97.5" y="79.0" />
+                  <point x="240.33333333333334" y="79.0" />
+                  <point x="-50.66666666666666" y="27.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-174.0" y="149.5" />
+              <SelectedNodes>
+                <node>xin.nimil.design.creational.simplefactory.VideoFactory</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -224,12 +293,17 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/method/Base.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/method/FBaseImpl.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/MySQLConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/OracleDbConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Production.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/ActionVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/LoveStroryVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/VideoFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java" />
       </list>
     </option>
   </component>
@@ -359,13 +433,53 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="gengreantion" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="simplefactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,9 +491,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546346888929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546348752352" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -399,7 +514,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Tests">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xin.nimil.design.liskov.Test" />
       <module name="DesignModel" />
@@ -439,6 +554,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.simplefactory.Tests" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xin.nimil.design.creational.simplefactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Testss (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xin.nimil.design.singlework.Testss" />
       <module name="DesignModel" />
@@ -452,33 +580,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.dependenceinversion.Testss" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xin.nimil.design.dependenceinversion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Testss" />
       <item itemvalue="Application.Testss (1)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Testss (1)" />
-        <item itemvalue="Application.Testss" />
       </list>
     </recent_temporary>
   </component>
@@ -493,12 +608,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546318141835</updated>
       <workItem from="1546318145546" duration="11413000" />
-      <workItem from="1546345962710" duration="926000" />
+      <workItem from="1546345962710" duration="2723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12339000" />
+    <option name="totallyTimeSpent" value="14136000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,8 +637,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -551,144 +666,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.lang.Override">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.lang.Override</OriginalElement>
-          <nodes>
-            <node x="" y="">java.lang.Override</node>
-            <node x="" y="">java.lang.annotation.Annotation</node>
-            <node x="" y="">java.lang.annotation.Target</node>
-            <node x="" y="">java.lang.annotation.Retention</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="137.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/TestPar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.dependenceinversion.PythonCouse">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.dependenceinversion.PythonCouse</OriginalElement>
-          <nodes>
-            <node x="" y="">xin.nimil.design.dependenceinversion.Icouse</node>
-            <node x="" y="">xin.nimil.design.dependenceinversion.PythonCouse</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="56.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Icouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.partten">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.partten</OriginalElement>
-          <nodes>
-            <node x="149.0" y="0.0">xin.nimil.design.partten.TestPar</node>
-            <node x="1.0" y="162.0">xin.nimil.design.partten.JavaIclazz</node>
-            <node x="0.0" y="81.0">xin.nimil.design.partten.IclazzImpl</node>
-            <node x="12.0" y="0.0">xin.nimil.design.partten.IClass</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.partten.IclazzImpl" target="xin.nimil.design.partten.IClass">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="xin.nimil.design.partten.JavaIclazz" target="xin.nimil.design.partten.IclazzImpl">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-199.0" y="128.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>packageLocal</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.dependenceinversion">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.dependenceinversion</OriginalElement>
-          <nodes>
-            <node x="272.0" y="81.0">xin.nimil.design.dependenceinversion.FeCourse</node>
-            <node x="147.5" y="0.0">xin.nimil.design.dependenceinversion.Icouse</node>
-            <node x="129.0" y="157.0">xin.nimil.design.dependenceinversion.Lilly</node>
-            <node x="0.0" y="157.0">xin.nimil.design.dependenceinversion.Testss</node>
-            <node x="128.0" y="81.0">xin.nimil.design.dependenceinversion.PythonCouse</node>
-            <node x="0.0" y="81.0">xin.nimil.design.dependenceinversion.JavaCouse</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.dependenceinversion.PythonCouse" target="xin.nimil.design.dependenceinversion.Icouse">
-              <point x="0.0" y="-15.5" />
-              <point x="0.0" y="15.5" />
-            </edge>
-            <edge source="xin.nimil.design.dependenceinversion.JavaCouse" target="xin.nimil.design.dependenceinversion.Icouse">
-              <point x="0.0" y="-15.5" />
-              <point x="54.0" y="56.0" />
-              <point x="161.66666666666666" y="56.0" />
-              <point x="-28.333333333333343" y="15.5" />
-            </edge>
-            <edge source="xin.nimil.design.dependenceinversion.FeCourse" target="xin.nimil.design.dependenceinversion.Icouse">
-              <point x="0.0" y="-15.5" />
-              <point x="323.0" y="56.0" />
-              <point x="218.33333333333331" y="56.0" />
-              <point x="28.333333333333314" y="15.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-132.0" y="125.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>packageLocal</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -1043,51 +1020,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/xin.nimil.design.gengreantion">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.gengreantion</OriginalElement>
-          <nodes>
-            <node x="11.5" y="208.0">xin.nimil.design.gengreantion.Test</node>
-            <node x="13.0" y="104.0">xin.nimil.design.gengreantion.Production</node>
-            <node x="0.0" y="0.0">xin.nimil.design.gengreantion.DBConnection</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.gengreantion.Test" target="xin.nimil.design.gengreantion.Production">
-              <point x="-43.5" y="-27.0" />
-              <point x="-42.75" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.gengreantion.Production" target="xin.nimil.design.gengreantion.DBConnection">
-              <point x="0.0" y="-27.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-251.5" y="124.5" />
-          <SelectedNodes>
-            <node>xin.nimil.design.gengreantion.Test</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="362">
-            <caret line="18" selection-start-line="18" selection-end-line="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1133,7 +1065,238 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.gengreantion">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.gengreantion</OriginalElement>
+          <nodes>
+            <node x="164.50000000000003" y="232.0">xin.nimil.design.gengreantion.Test</node>
+            <node x="0.0" y="104.0">xin.nimil.design.gengreantion.Production</node>
+            <node x="456.0" y="116.0">xin.nimil.design.gengreantion.MySQLConnection</node>
+            <node x="153.50000000000003" y="0.0">xin.nimil.design.gengreantion.DBConnection</node>
+            <node x="240.00000000000003" y="116.0">xin.nimil.design.gengreantion.OracleDbConnection</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.gengreantion.MySQLConnection" target="xin.nimil.design.gengreantion.DBConnection">
+              <point x="0.0" y="-27.0" />
+              <point x="554.0" y="74.0" />
+              <point x="325.0" y="74.0" />
+              <point x="73.5" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.gengreantion.Test" target="xin.nimil.design.gengreantion.OracleDbConnection">
+              <point x="21.75" y="-27.0" />
+              <point x="273.25" y="202.0" />
+              <point x="338.0" y="202.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.gengreantion.Test" target="xin.nimil.design.gengreantion.MySQLConnection">
+              <point x="65.25" y="-27.0" />
+              <point x="316.75" y="212.0" />
+              <point x="554.0" y="212.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.gengreantion.Test" target="xin.nimil.design.gengreantion.Production">
+              <point x="-65.25" y="-27.0" />
+              <point x="186.25000000000003" y="212.0" />
+              <point x="55.0" y="212.0" />
+              <point x="-55.0" y="39.0" />
+            </edge>
+            <edge source="xin.nimil.design.gengreantion.OracleDbConnection" target="xin.nimil.design.gengreantion.DBConnection">
+              <point x="0.0" y="-27.0" />
+              <point x="338.0" y="84.0" />
+              <point x="276.0" y="84.0" />
+              <point x="24.5" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.gengreantion.Production" target="xin.nimil.design.gengreantion.DBConnection">
+              <point x="55.0" y="-39.0" />
+              <point x="165.0" y="84.0" />
+              <point x="227.00000000000003" y="84.0" />
+              <point x="-24.5" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="129.0" y="126.0" />
+          <SelectedNodes>
+            <node>xin.nimil.design.gengreantion.Test</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.creational.simplefactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.creational.simplefactory</OriginalElement>
+          <nodes>
+            <node x="0.0" y="104.0">xin.nimil.design.creational.simplefactory.VideoFactory</node>
+            <node x="215.0" y="0.0">xin.nimil.design.creational.simplefactory.Video</node>
+            <node x="387.0" y="104.0">xin.nimil.design.creational.simplefactory.ActionVideo</node>
+            <node x="215.0" y="104.0">xin.nimil.design.creational.simplefactory.LoveStroryVideo</node>
+            <node x="195.4" y="208.0">xin.nimil.design.creational.simplefactory.Tests</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.creational.simplefactory.Tests" target="xin.nimil.design.creational.simplefactory.ActionVideo">
+              <point x="43.5" y="-27.0" />
+              <point x="325.9" y="183.0" />
+              <point x="463.0" y="183.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.creational.simplefactory.LoveStroryVideo" target="xin.nimil.design.creational.simplefactory.Video">
+              <point x="0.0" y="-27.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.creational.simplefactory.Tests" target="xin.nimil.design.creational.simplefactory.VideoFactory">
+              <point x="-43.5" y="-27.0" />
+              <point x="238.9" y="183.0" />
+              <point x="97.5" y="183.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.creational.simplefactory.ActionVideo" target="xin.nimil.design.creational.simplefactory.Video">
+              <point x="0.0" y="-27.0" />
+              <point x="463.0" y="79.0" />
+              <point x="341.66666666666663" y="79.0" />
+              <point x="50.66666666666663" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.creational.simplefactory.VideoFactory" target="xin.nimil.design.creational.simplefactory.Video">
+              <point x="0.0" y="-27.0" />
+              <point x="97.5" y="79.0" />
+              <point x="240.33333333333334" y="79.0" />
+              <point x="-50.66666666666666" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-174.0" y="149.5" />
+          <SelectedNodes>
+            <node>xin.nimil.design.creational.simplefactory.VideoFactory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/VideoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/LoveStroryVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Calendar">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Calendar</OriginalElement>
+          <nodes>
+            <node x="320.0" y="11.5">java.lang.Cloneable</node>
+            <node x="26.916666666666686" y="104.0">java.util.Calendar</node>
+            <node x="0.0" y="0.0">java.lang.Comparable</node>
+            <node x="187.0" y="11.5">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.Calendar" target="java.io.Serializable">
+              <point x="2.8421709430404007E-14" y="-1004.5" />
+              <point x="237.9166666666667" y="79.0" />
+              <point x="243.5" y="79.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.util.Calendar" target="java.util.Calendar">
+              <point x="0.0" y="1004.5" />
+              <point x="237.91666666666669" y="2133.0" />
+              <point x="6.916666666666686" y="2133.0" />
+              <point x="6.916666666666686" y="1108.5" />
+              <point x="-211.0" y="-0.0" />
+            </edge>
+            <edge source="java.util.Calendar" target="java.lang.Cloneable">
+              <point x="140.66666666666663" y="-1004.5" />
+              <point x="378.5833333333333" y="79.0" />
+              <point x="373.0" y="79.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.util.Calendar" target="java.lang.Comparable">
+              <point x="-140.66666666666663" y="-1004.5" />
+              <point x="97.25000000000006" y="79.0" />
+              <point x="83.5" y="79.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-128.0" y="204.0" />
+          <SelectedNodes>
+            <node>java.util.Calendar</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/myStydyRode/java8/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="1657" column="28" selection-start-line="1657" selection-start-column="28" selection-end-line="1657" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/ActionVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="131">
+            <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
