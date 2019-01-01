@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/FeCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Icouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/JavaCouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/PythonCouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Flybird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Icourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Testss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/WalkBird.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -29,28 +31,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="ClazzSty" value="1" />
           <entry key="Override" value="1" />
-          <entry key="java" value="10" />
-          <entry key="md" value="2" />
+          <entry key="PythonCouse" value="1" />
+          <entry key="dependenceinversion" value="1" />
+          <entry key="java" value="27" />
+          <entry key="md" value="3" />
+          <entry key="partten" value="1" />
+          <entry key="singlework" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="Markdown" value="2" />
-          <entry key="UML" value="1" />
+          <entry key="JAVA" value="27" />
+          <entry key="Markdown" value="3" />
+          <entry key="UML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1089" />
-          <entry key="md" value="73" />
+          <entry key="java" value="1590" />
+          <entry key="md" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1089" />
-          <entry key="Markdown" value="73" />
+          <entry key="JAVA" value="1590" />
+          <entry key="Markdown" value="133" />
         </counts>
       </usages-collector>
     </session>
@@ -61,8 +68,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <first_editor relative-caret-position="200">
+                <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,116 +77,83 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Icourse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="271">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <element signature="e#180#181#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <entry file="uml://JAVA/xin.nimil.design.singlework.ClazzSty">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>xin.nimil.design.singlework.ClazzSty</OriginalElement>
+              <nodes>
+                <node x="0.0" y="0.0">xin.nimil.design.singlework.IcouseContent</node>
+                <node x="206.0" y="0.0">xin.nimil.design.singlework.IcouseManager</node>
+                <node x="102.0" y="127.0">xin.nimil.design.singlework.ClazzSty</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="xin.nimil.design.singlework.ClazzSty" target="xin.nimil.design.singlework.IcouseManager">
+                  <point x="46.5" y="-61.5" />
+                  <point x="241.5" y="102.0" />
+                  <point x="297.0" y="102.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="xin.nimil.design.singlework.ClazzSty" target="xin.nimil.design.singlework.IcouseContent">
+                  <point x="-46.5" y="-61.5" />
+                  <point x="148.5" y="102.0" />
+                  <point x="93.0" y="102.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="194.00000000000003" y="125.00000000000001" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/PythonCouse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-              <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Icouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/JavaCouse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/FeCourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="39" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/IClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/IclazzImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding>
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/TestPar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="225">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -208,9 +182,17 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/JavaCouse.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/FeCourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/PythonCouse.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Bird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Flybird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/WalkBird.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Testss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Icourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseContent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java" />
       </list>
     </option>
   </component>
@@ -340,7 +322,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="dependenceinversion" type="462c0819:PsiDirectoryNode" />
+              <item name="singlework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
@@ -360,7 +342,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546321116448" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546325132563" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -380,13 +362,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Testss">
+  <component name="RunManager" selected="Application.Testss (1)">
     <configuration name="TestPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xin.nimil.design.partten.TestPar" />
       <module name="DesignModel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xin.nimil.design.partten.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testss (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.singlework.Testss" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xin.nimil.design.singlework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,9 +405,11 @@
     <list>
       <item itemvalue="Application.TestPar" />
       <item itemvalue="Application.Testss" />
+      <item itemvalue="Application.Testss (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Testss (1)" />
         <item itemvalue="Application.Testss" />
         <item itemvalue="Application.TestPar" />
       </list>
@@ -428,12 +425,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546318141835</updated>
-      <workItem from="1546318145546" duration="2966000" />
+      <workItem from="1546318145546" duration="6278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2966000" />
+    <option name="totallyTimeSpent" value="6278000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -444,8 +450,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -453,11 +460,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -536,17 +543,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/TestPar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="65" lean-forward="true" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/IClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/TestPar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.dependenceinversion.PythonCouse">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.dependenceinversion.PythonCouse</OriginalElement>
+          <nodes>
+            <node x="" y="">xin.nimil.design.dependenceinversion.Icouse</node>
+            <node x="" y="">xin.nimil.design.dependenceinversion.PythonCouse</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="62.0" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Icouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.partten">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.partten</OriginalElement>
+          <nodes>
+            <node x="149.0" y="0.0">xin.nimil.design.partten.TestPar</node>
+            <node x="1.0" y="162.0">xin.nimil.design.partten.JavaIclazz</node>
+            <node x="0.0" y="81.0">xin.nimil.design.partten.IclazzImpl</node>
+            <node x="12.0" y="0.0">xin.nimil.design.partten.IClass</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.partten.IclazzImpl" target="xin.nimil.design.partten.IClass">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="xin.nimil.design.partten.JavaIclazz" target="xin.nimil.design.partten.IclazzImpl">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-199.5" y="127.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>packageLocal</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.dependenceinversion">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.dependenceinversion</OriginalElement>
+          <nodes>
+            <node x="272.0" y="81.0">xin.nimil.design.dependenceinversion.FeCourse</node>
+            <node x="147.5" y="0.0">xin.nimil.design.dependenceinversion.Icouse</node>
+            <node x="129.0" y="157.0">xin.nimil.design.dependenceinversion.Lilly</node>
+            <node x="0.0" y="157.0">xin.nimil.design.dependenceinversion.Testss</node>
+            <node x="128.0" y="81.0">xin.nimil.design.dependenceinversion.PythonCouse</node>
+            <node x="0.0" y="81.0">xin.nimil.design.dependenceinversion.JavaCouse</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.dependenceinversion.PythonCouse" target="xin.nimil.design.dependenceinversion.Icouse">
+              <point x="0.0" y="-15.5" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="xin.nimil.design.dependenceinversion.JavaCouse" target="xin.nimil.design.dependenceinversion.Icouse">
+              <point x="0.0" y="-15.5" />
+              <point x="54.0" y="56.0" />
+              <point x="161.66666666666666" y="56.0" />
+              <point x="-28.333333333333343" y="15.5" />
+            </edge>
+            <edge source="xin.nimil.design.dependenceinversion.FeCourse" target="xin.nimil.design.dependenceinversion.Icouse">
+              <point x="0.0" y="-15.5" />
+              <point x="323.0" y="56.0" />
+              <point x="218.33333333333331" y="56.0" />
+              <point x="28.333333333333314" y="15.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-132.5" y="125.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>packageLocal</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/PythonCouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,73 +683,158 @@
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/FeCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Bird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Flybird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/WalkBird.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Testss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.singlework">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.singlework</OriginalElement>
+          <nodes>
+            <node x="0.0" y="76.0">xin.nimil.design.singlework.Flybird</node>
+            <node x="0.0" y="0.0">xin.nimil.design.singlework.WalkBird</node>
+            <node x="129.0" y="152.0">xin.nimil.design.singlework.Bird</node>
+            <node x="0.0" y="152.0">xin.nimil.design.singlework.Testss</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-219.5" y="122.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>packageLocal</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Icouse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/Icourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="271">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/FeCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/PythonCouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Lilly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/dependenceinversion/Testss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+    <entry file="uml://JAVA/xin.nimil.design.singlework.ClazzSty">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.singlework.ClazzSty</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">xin.nimil.design.singlework.IcouseContent</node>
+            <node x="206.0" y="0.0">xin.nimil.design.singlework.IcouseManager</node>
+            <node x="102.0" y="127.0">xin.nimil.design.singlework.ClazzSty</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.singlework.ClazzSty" target="xin.nimil.design.singlework.IcouseManager">
+              <point x="46.5" y="-61.5" />
+              <point x="241.5" y="102.0" />
+              <point x="297.0" y="102.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="xin.nimil.design.singlework.ClazzSty" target="xin.nimil.design.singlework.IcouseContent">
+              <point x="-46.5" y="-61.5" />
+              <point x="148.5" y="102.0" />
+              <point x="93.0" y="102.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="194.00000000000003" y="125.00000000000001" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
