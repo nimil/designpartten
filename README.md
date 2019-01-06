@@ -24,3 +24,6 @@ T1 O1 T2 O2 T1创建了o1 用T2替换T1时所有软件功能不受影响，父�
 ### 1.工厂方法  
 定义一个创建对象的接口，但让实现这个接口的类来决定实例化哪个类，工厂方法让类的实例化推迟到子类中进行
 创建型  collection类  工厂方法。Iterator方法  urlStreamHandlerFactory  logFactory logback slf4j
+### 2.抽象工厂
+抽象工厂模式提供一个创建一系列相关或相互依赖对象的接口  
+数据库连接的Connection接口 返回的都属于同一个产品族
