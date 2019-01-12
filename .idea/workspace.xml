@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Star.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,12 +18,12 @@
     <session id="-200593605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,8 +37,8 @@
           <entry key="dependenceinversion" value="1" />
           <entry key="factorymethod" value="1" />
           <entry key="gengreantion" value="1" />
-          <entry key="java" value="89" />
-          <entry key="md" value="5" />
+          <entry key="java" value="90" />
+          <entry key="md" value="6" />
           <entry key="partten" value="1" />
           <entry key="simplefactory" value="2" />
           <entry key="singlework" value="1" />
@@ -57,23 +47,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="89" />
-          <entry key="Markdown" value="5" />
+          <entry key="JAVA" value="90" />
+          <entry key="Markdown" value="6" />
           <entry key="UML" value="13" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4334" />
-          <entry key="md" value="767" />
+          <entry key="java" value="4431" />
+          <entry key="md" value="889" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4334" />
-          <entry key="Markdown" value="767" />
+          <entry key="JAVA" value="4431" />
+          <entry key="Markdown" value="889" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -82,179 +72,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/xin.nimil.design.creational.abstractfactory">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>xin.nimil.design.creational.abstractfactory</OriginalElement>
-              <nodes>
-                <node x="99.75" y="0.0">xin.nimil.design.creational.abstractfactory.MovieFactory</node>
-                <node x="190.0" y="127.0">xin.nimil.design.creational.abstractfactory.ActionMovieStarFactory</node>
-                <node x="172.0" y="556.0">xin.nimil.design.creational.abstractfactory.ComdyStart</node>
-                <node x="0.0" y="556.0">xin.nimil.design.creational.abstractfactory.ActionStar</node>
-                <node x="172.0" y="353.0">xin.nimil.design.creational.abstractfactory.ActionMovie</node>
-                <node x="86.0" y="452.0">xin.nimil.design.creational.abstractfactory.Star</node>
-                <node x="0.0" y="353.0">xin.nimil.design.creational.abstractfactory.ComdyMovie</node>
-                <node x="0.0" y="127.0">xin.nimil.design.creational.abstractfactory.ComdyMovieFactory</node>
-                <node x="86.0" y="249.0">xin.nimil.design.creational.abstractfactory.Movie</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="xin.nimil.design.creational.abstractfactory.ComdyMovieFactory" target="xin.nimil.design.creational.abstractfactory.MovieFactory">
-                  <point x="0.0" y="-38.5" />
-                  <point x="85.0" y="102.0" />
-                  <point x="142.25" y="102.0" />
-                  <point x="-42.5" y="38.5" />
-                </edge>
-                <edge source="xin.nimil.design.creational.abstractfactory.ActionMovie" target="xin.nimil.design.creational.abstractfactory.Movie">
-                  <point x="0.0" y="-27.0" />
-                  <point x="248.0" y="328.0" />
-                  <point x="200.0" y="328.0" />
-                  <point x="38.0" y="27.0" />
-                </edge>
-                <edge source="xin.nimil.design.creational.abstractfactory.ComdyMovie" target="xin.nimil.design.creational.abstractfactory.Movie">
-                  <point x="0.0" y="-27.0" />
-                  <point x="76.0" y="328.0" />
-                  <point x="124.0" y="328.0" />
-                  <point x="-38.0" y="27.0" />
-                </edge>
-                <edge source="xin.nimil.design.creational.abstractfactory.ActionMovieStarFactory" target="xin.nimil.design.creational.abstractfactory.MovieFactory">
-                  <point x="0.0" y="-38.5" />
-                  <point x="284.5" y="102.0" />
-                  <point x="227.25" y="102.0" />
-                  <point x="42.5" y="38.5" />
-                </edge>
-                <edge source="xin.nimil.design.creational.abstractfactory.ComdyStart" target="xin.nimil.design.creational.abstractfactory.Star">
-                  <point x="0.0" y="-27.0" />
-                  <point x="248.0" y="531.0" />
-                  <point x="200.0" y="531.0" />
-                  <point x="38.0" y="27.0" />
-                </edge>
-                <edge source="xin.nimil.design.creational.abstractfactory.ActionStar" target="xin.nimil.design.creational.abstractfactory.Star">
-                  <point x="0.0" y="-27.0" />
-                  <point x="76.0" y="531.0" />
-                  <point x="124.0" y="531.0" />
-                  <point x="-38.0" y="27.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-123.0" y="219.0" />
-              <SelectedNodes>
-                <node>xin.nimil.design.creational.abstractfactory.ComdyMovieFactory</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="401">
+                <caret line="32" selection-start-line="32" selection-end-line="32" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#253#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Movie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="152">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -284,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/IcouseContent.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/MethodTes.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/IAnimalAction.java" />
@@ -319,7 +151,6 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideo.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideoFactory.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Video.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/CourseFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -335,6 +166,8 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java" />
       </list>
     </option>
   </component>
@@ -424,8 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -472,16 +303,6 @@
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="creational" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -493,13 +314,15 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546777112089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547281329236" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -623,12 +446,13 @@
       <workItem from="1546318145546" duration="11413000" />
       <workItem from="1546345962710" duration="3194000" />
       <workItem from="1546436496031" duration="2395000" />
-      <workItem from="1546771366893" duration="2641000" />
+      <workItem from="1546771366893" duration="3133000" />
+      <workItem from="1547277338965" duration="2294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19643000" />
+    <option name="totallyTimeSpent" value="22429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,7 +467,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -659,7 +483,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28470254" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28470254" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -681,13 +505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/TeamLeader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
@@ -1083,10 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,10 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,10 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,23 +1006,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="527">
-            <caret line="28" selection-start-line="28" selection-end-line="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Video.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1229,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,86 +1025,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,10 +1095,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="401">
+            <caret line="32" selection-start-line="32" selection-end-line="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
