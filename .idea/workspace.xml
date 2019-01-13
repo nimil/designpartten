@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ContainerSingleTon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazyDoubleCheckSington.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/StaticInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ThreadLocalInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -18,12 +27,12 @@
     <session id="-200593605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,37 +42,40 @@
           <entry key="Override" value="1" />
           <entry key="PythonCouse" value="1" />
           <entry key="abstractfactory" value="1" />
+          <entry key="builder" value="1" />
           <entry key="demeter" value="1" />
           <entry key="dependenceinversion" value="1" />
           <entry key="factorymethod" value="1" />
           <entry key="gengreantion" value="1" />
-          <entry key="java" value="90" />
-          <entry key="md" value="6" />
+          <entry key="java" value="100" />
+          <entry key="md" value="7" />
           <entry key="partten" value="1" />
           <entry key="simplefactory" value="2" />
+          <entry key="sing_file" value="1" />
           <entry key="singlework" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="90" />
-          <entry key="Markdown" value="6" />
-          <entry key="UML" value="13" />
+          <entry key="JAVA" value="100" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="14" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4431" />
-          <entry key="md" value="889" />
+          <entry key="java" value="6379" />
+          <entry key="md" value="1041" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4431" />
-          <entry key="Markdown" value="889" />
+          <entry key="JAVA" value="6379" />
+          <entry key="Markdown" value="1041" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -75,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="401">
-                <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <first_editor relative-caret-position="452">
+                <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,12 +96,115 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ThreadLocalInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="125">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#252#425#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazyDoubleCheckSington.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/StaticInnerClassSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/HungrySingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ContainerSingleTon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumInstance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +216,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -117,16 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/ClazzSty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/singlework/MethodTes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/IAnimalAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/Bird.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/Dog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/ISwimAnimalAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/IeatAnimalAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/IflyAnimalAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/interfacesegragetion/Tiger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/Boss.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/TeamLeader.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/Test.java" />
@@ -166,8 +272,18 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/T.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazyDoubleCheckSington.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/StaticInnerClassSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/HungrySingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumInstance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ContainerSingleTon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ThreadLocalInstance.java" />
       </list>
     </option>
   </component>
@@ -257,6 +373,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,6 +422,16 @@
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,29 +442,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547281329236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547383724043" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xin.nimil.design.creational.abstractfactory" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codes\DesignModel\src\main\java\xin\nimil\design\creational\factorymethod" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xin.nimil.design.creational.abstractfactory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,20 +476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.liskov.Test" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xin.nimil.design.liskov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xin.nimil.design.gengreantion.Test" />
       <module name="DesignModel" />
@@ -383,6 +496,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="xin.nimil.design.creational.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.singleton.Test" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xin.nimil.design.creational.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,19 +543,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.Tests" />
       <item itemvalue="Application.Tests (1)" />
       <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Tests (1)" />
         <item itemvalue="Application.Tests" />
         <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -447,12 +573,13 @@
       <workItem from="1546345962710" duration="3194000" />
       <workItem from="1546436496031" duration="2395000" />
       <workItem from="1546771366893" duration="3133000" />
-      <workItem from="1547277338965" duration="2294000" />
+      <workItem from="1547277338965" duration="3789000" />
+      <workItem from="1547367952906" duration="8888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22429000" />
+    <option name="totallyTimeSpent" value="32812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,7 +594,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -483,7 +610,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28470254" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.28470254" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -504,136 +631,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/T.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazySingleton.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/TeamLeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/demeter/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.demeter">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.demeter</OriginalElement>
-          <nodes>
-            <node x="215.16666666666666" y="0.0">xin.nimil.design.demeter.Course</node>
-            <node x="0.0" y="185.0">xin.nimil.design.demeter.Boss</node>
-            <node x="132.9861111111111" y="81.0">xin.nimil.design.demeter.TeamLeader</node>
-            <node x="144.77777777777777" y="289.0">xin.nimil.design.demeter.Test</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.demeter.Test" target="xin.nimil.design.demeter.Boss">
-              <point x="-21.75" y="-27.0" />
-              <point x="210.02777777777777" y="269.0" />
-              <point x="212.25" y="269.0" />
-              <point x="70.75" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.demeter.Test" target="xin.nimil.design.demeter.TeamLeader">
-              <point x="65.25" y="-27.0" />
-              <point x="297.02777777777777" y="269.0" />
-              <point x="304.5" y="269.0" />
-              <point x="304.5" y="160.0" />
-              <point x="332.15277777777777" y="160.0" />
-              <point x="79.66666666666669" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.demeter.TeamLeader" target="xin.nimil.design.demeter.Course">
-              <point x="59.75" y="-27.0" />
-              <point x="312.2361111111111" y="56.0" />
-              <point x="281.16666666666663" y="56.0" />
-              <point x="22.0" y="15.5" />
-            </edge>
-            <edge source="xin.nimil.design.demeter.Boss" target="xin.nimil.design.demeter.TeamLeader">
-              <point x="0.0" y="-27.0" />
-              <point x="141.5" y="160.0" />
-              <point x="172.8194444444444" y="160.0" />
-              <point x="-79.66666666666669" y="27.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-224.0" y="220.0" />
-          <SelectedNodes>
-            <node>xin.nimil.design.demeter.Boss</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/IClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/IclazzImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/partten/JavaIclazz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/RectTogal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/QuarTogal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/method/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/liskov/method/FBaseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1095,16 +1114,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="401">
-            <caret line="32" selection-start-line="32" selection-end-line="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -1181,12 +1190,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/xin.nimil.design.creational.builder">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.creational.builder</OriginalElement>
+          <nodes>
+            <node x="" y="">xin.nimil.design.creational.builder.Course</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="16.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="250">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/T.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sing_file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazyDoubleCheckSington.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/LazySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/StaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/EnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ContainerSingleTon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="452">
+            <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ThreadLocalInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#252#425#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
           </folding>
         </state>
       </provider>
