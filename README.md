@@ -38,4 +38,8 @@ StringBuilder append方法
 JAD 反编译工具  
 应用：  Runtime 类  Desktop 类   Spring的单例是基于容器的 变作用域中的一个  将实例设计在上下文中   
 abstractFactoryBean  getObject  单例方法 spring中的
-
+### 5.原型模式
+指原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象  
+不需要知道任何创建的细节，不调用构造函数  
+ArrayList copyof 方法  clone方法  HashMap也用到了clone方法
+  
