@@ -42,4 +42,6 @@ abstractFactoryBean  getObject  单例方法 spring中的
 指原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象  
 不需要知道任何创建的细节，不调用构造函数  
 ArrayList copyof 方法  clone方法  HashMap也用到了clone方法
-  
+### 6.外观模式
+提供一个统一的接口，用来访问子系统中的一群接口，外观模式定义了一个高层接口让子系统更容易使用
+JdbcUtils  外观模式
