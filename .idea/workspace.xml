@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/GiftExchangeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsGift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/QualifuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/ShippingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/ConcurrentTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/AC220.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/ConcurrentTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/DC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/PowerAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEgg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEggSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/ABatterCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/AbstractDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/BatterCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/SourcegeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/Tesst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -23,13 +40,13 @@
     <session id="-200593605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,40 +57,42 @@
           <entry key="PythonCouse" value="1" />
           <entry key="abstractfactory" value="1" />
           <entry key="builder" value="1" />
+          <entry key="classadptor" value="1" />
           <entry key="demeter" value="1" />
           <entry key="dependenceinversion" value="1" />
           <entry key="facade" value="1" />
           <entry key="factorymethod" value="1" />
           <entry key="gengreantion" value="1" />
-          <entry key="java" value="111" />
-          <entry key="md" value="8" />
+          <entry key="java" value="144" />
+          <entry key="md" value="9" />
           <entry key="partten" value="1" />
           <entry key="simplefactory" value="2" />
-          <entry key="sing_file" value="1" />
+          <entry key="sing_file" value="2" />
           <entry key="singlework" value="1" />
+          <entry key="v2" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="111" />
-          <entry key="Markdown" value="8" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="UML" value="15" />
+          <entry key="JAVA" value="144" />
+          <entry key="Markdown" value="9" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="UML" value="17" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7803" />
-          <entry key="md" value="1367" />
+          <entry key="java" value="8812" />
+          <entry key="md" value="1531" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7803" />
-          <entry key="Markdown" value="1367" />
+          <entry key="JAVA" value="8812" />
+          <entry key="Markdown" value="1531" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -82,144 +101,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="326">
-                <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsGift.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/ConcurrentTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/QualifuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsPaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/GiftExchangeService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Target.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/ConcurrentTarget.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="250">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/xin.nimil.design.strutual.facade">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>xin.nimil.design.strutual.facade</OriginalElement>
-              <nodes>
-                <node x="0.0" y="219.0">xin.nimil.design.strutual.facade.QualifuService</node>
-                <node x="487.0" y="219.0">xin.nimil.design.strutual.facade.ShippingService</node>
-                <node x="264.0" y="219.0">xin.nimil.design.strutual.facade.PointsPaymentService</node>
-                <node x="290.75" y="323.0">xin.nimil.design.strutual.facade.GiftExchangeService</node>
-                <node x="371.75" y="0.0">xin.nimil.design.strutual.facade.PointsGift</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="xin.nimil.design.strutual.facade.QualifuService" target="xin.nimil.design.strutual.facade.PointsGift">
-                  <point x="0.0" y="-27.0" />
-                  <point x="122.0" y="189.0" />
-                  <point x="398.75" y="189.0" />
-                  <point x="-81.0" y="84.5" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.ShippingService" target="xin.nimil.design.strutual.facade.PointsGift">
-                  <point x="0.0" y="-27.0" />
-                  <point x="594.0" y="199.0" />
-                  <point x="506.75" y="199.0" />
-                  <point x="27.0" y="84.5" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.GiftExchangeService" target="xin.nimil.design.strutual.facade.PointsPaymentService">
-                  <point x="-47.25" y="-61.5" />
-                  <point x="432.5" y="298.0" />
-                  <point x="365.5" y="298.0" />
-                  <point x="0.0" y="27.0" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.GiftExchangeService" target="xin.nimil.design.strutual.facade.ShippingService">
-                  <point x="47.25" y="-61.5" />
-                  <point x="527.0" y="298.0" />
-                  <point x="594.0" y="298.0" />
-                  <point x="0.0" y="27.0" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.PointsPaymentService" target="xin.nimil.design.strutual.facade.PointsGift">
-                  <point x="0.0" y="-27.0" />
-                  <point x="365.5" y="199.0" />
-                  <point x="452.75" y="199.0" />
-                  <point x="-27.0" y="84.5" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.GiftExchangeService" target="xin.nimil.design.strutual.facade.PointsGift">
-                  <point x="141.75" y="-61.5" />
-                  <point x="621.5" y="298.0" />
-                  <point x="711.5" y="298.0" />
-                  <point x="711.5" y="189.0" />
-                  <point x="560.75" y="189.0" />
-                  <point x="81.0" y="84.5" />
-                </edge>
-                <edge source="xin.nimil.design.strutual.facade.GiftExchangeService" target="xin.nimil.design.strutual.facade.QualifuService">
-                  <point x="-141.75" y="-61.5" />
-                  <point x="338.0" y="298.0" />
-                  <point x="122.0" y="298.0" />
-                  <point x="0.0" y="27.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-98.0" y="210.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/AC220.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/ShippingService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/DC5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/PowerAdaptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="43" />
+              <folding>
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -229,8 +207,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -247,29 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Production.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/gengreantion/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/ActionVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/LoveStroryVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/VideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/VideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/ActionVideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/LoveStroryVideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Video.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Star.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieStarFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java" />
@@ -291,13 +246,36 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/prototype/Mail.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/prototype/clone/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/prototype/clone/Pig.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsGift.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/QualifuService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsPaymentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/ShippingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/GiftExchangeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEgg.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEggSausage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/ABatterCake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/BatterCake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/AbstractDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/SourcegeDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/Tesst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/EggDecorator.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/ConcurrentTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Target.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/ConcurrentTarget.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/AC220.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/DC5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/PowerAdaptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Test.java" />
       </list>
     </option>
   </component>
@@ -315,7 +293,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -387,6 +365,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -427,7 +408,39 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="facade" type="462c0819:PsiDirectoryNode" />
+              <item name="strutual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="strutual" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="strutual" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="classadptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="strutual" type="462c0819:PsiDirectoryNode" />
+              <item name="adaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="objectadaptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
@@ -443,16 +456,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547644571664" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547990302274" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -461,11 +471,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\codes\DesignModel\src\main\java\xin\nimil\design\creational\factorymethod" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="xin.nimil.design.creational.abstractfactory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xin.nimil.design.strutual.adaptor.objectadaptor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\codes\DesignModel\src\main\java\xin\nimil\design\creational\factorymethod" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -480,39 +493,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Tesst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.strutual.decorator.v2.Tesst" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xin.nimil.design.strutual.decorator.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.prototype.Test" />
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.strutual.adaptor.objectadaptor.Test" />
       <module name="DesignModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xin.nimil.design.creational.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.prototype.clone.Test" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xin.nimil.design.creational.prototype.clone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.abstractfactory.Test" />
-      <module name="DesignModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xin.nimil.design.creational.abstractfactory.*" />
+          <option name="PATTERN" value="xin.nimil.design.strutual.adaptor.objectadaptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -533,12 +533,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.creational.singleton.Test" />
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.strutual.decorator.Test" />
       <module name="DesignModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xin.nimil.design.creational.singleton.*" />
+          <option name="PATTERN" value="xin.nimil.design.strutual.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.strutual.adaptor.classadptor.Test" />
+      <module name="DesignModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xin.nimil.design.strutual.adaptor.classadptor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -547,19 +560,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (5)" />
+      <item itemvalue="Application.Tesst" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Application.Test (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Tesst" />
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -580,12 +593,13 @@
       <workItem from="1547277338965" duration="3789000" />
       <workItem from="1547367952906" duration="9908000" />
       <workItem from="1547472078333" duration="3047000" />
-      <workItem from="1547642927901" duration="1410000" />
+      <workItem from="1547642927901" duration="2401000" />
+      <workItem from="1547964892239" duration="6030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38289000" />
+    <option name="totallyTimeSpent" value="45310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,7 +614,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -610,7 +624,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -659,300 +673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/simplefactory/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/ActionVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/ActionVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/LoveStroryVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/LoveStroryVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/VideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/factorymethod/FunVideoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.creational.factorymethod">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.creational.factorymethod</OriginalElement>
-          <nodes>
-            <node x="344.0" y="307.0">xin.nimil.design.creational.factorymethod.FunVideo</node>
-            <node x="209.0" y="0.0">xin.nimil.design.creational.factorymethod.VideoFactory</node>
-            <node x="0.0" y="406.0">xin.nimil.design.creational.factorymethod.Tests</node>
-            <node x="395.0" y="104.0">xin.nimil.design.creational.factorymethod.ActionVideoFactory</node>
-            <node x="209.0" y="104.0">xin.nimil.design.creational.factorymethod.FunVideoFactory</node>
-            <node x="172.0" y="307.0">xin.nimil.design.creational.factorymethod.LoveStroryVideo</node>
-            <node x="0.0" y="307.0">xin.nimil.design.creational.factorymethod.ActionVideo</node>
-            <node x="0.0" y="104.0">xin.nimil.design.creational.factorymethod.LoveStroryVideoFactory</node>
-            <node x="172.0" y="203.0">xin.nimil.design.creational.factorymethod.Video</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.creational.factorymethod.LoveStroryVideoFactory" target="xin.nimil.design.creational.factorymethod.VideoFactory">
-              <point x="0.0" y="-27.0" />
-              <point x="94.5" y="79.0" />
-              <point x="236.66666666666666" y="79.0" />
-              <point x="-55.33333333333334" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.factorymethod.FunVideoFactory" target="xin.nimil.design.creational.factorymethod.VideoFactory">
-              <point x="0.0" y="-27.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.factorymethod.ActionVideo" target="xin.nimil.design.creational.factorymethod.Video">
-              <point x="0.0" y="-27.0" />
-              <point x="76.0" y="282.0" />
-              <point x="197.33333333333334" y="282.0" />
-              <point x="-50.66666666666666" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.factorymethod.LoveStroryVideo" target="xin.nimil.design.creational.factorymethod.Video">
-              <point x="0.0" y="-27.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.factorymethod.ActionVideoFactory" target="xin.nimil.design.creational.factorymethod.VideoFactory">
-              <point x="0.0" y="-27.0" />
-              <point x="478.0" y="79.0" />
-              <point x="347.33333333333337" y="79.0" />
-              <point x="55.33333333333337" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.factorymethod.FunVideo" target="xin.nimil.design.creational.factorymethod.Video">
-              <point x="0.0" y="-27.0" />
-              <point x="420.0" y="282.0" />
-              <point x="298.66666666666663" y="282.0" />
-              <point x="50.66666666666663" y="27.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-45.0" y="217.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Video.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Star.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.creational.abstractfactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.creational.abstractfactory</OriginalElement>
-          <nodes>
-            <node x="99.75" y="0.0">xin.nimil.design.creational.abstractfactory.MovieFactory</node>
-            <node x="190.0" y="127.0">xin.nimil.design.creational.abstractfactory.ActionMovieStarFactory</node>
-            <node x="172.0" y="556.0">xin.nimil.design.creational.abstractfactory.ComdyStart</node>
-            <node x="0.0" y="556.0">xin.nimil.design.creational.abstractfactory.ActionStar</node>
-            <node x="172.0" y="353.0">xin.nimil.design.creational.abstractfactory.ActionMovie</node>
-            <node x="86.0" y="452.0">xin.nimil.design.creational.abstractfactory.Star</node>
-            <node x="0.0" y="353.0">xin.nimil.design.creational.abstractfactory.ComdyMovie</node>
-            <node x="0.0" y="127.0">xin.nimil.design.creational.abstractfactory.ComdyMovieFactory</node>
-            <node x="86.0" y="249.0">xin.nimil.design.creational.abstractfactory.Movie</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="xin.nimil.design.creational.abstractfactory.ComdyMovieFactory" target="xin.nimil.design.creational.abstractfactory.MovieFactory">
-              <point x="0.0" y="-38.5" />
-              <point x="85.0" y="102.0" />
-              <point x="142.25" y="102.0" />
-              <point x="-42.5" y="38.5" />
-            </edge>
-            <edge source="xin.nimil.design.creational.abstractfactory.ActionMovie" target="xin.nimil.design.creational.abstractfactory.Movie">
-              <point x="0.0" y="-27.0" />
-              <point x="248.0" y="328.0" />
-              <point x="200.0" y="328.0" />
-              <point x="38.0" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.abstractfactory.ComdyMovie" target="xin.nimil.design.creational.abstractfactory.Movie">
-              <point x="0.0" y="-27.0" />
-              <point x="76.0" y="328.0" />
-              <point x="124.0" y="328.0" />
-              <point x="-38.0" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.abstractfactory.ActionMovieStarFactory" target="xin.nimil.design.creational.abstractfactory.MovieFactory">
-              <point x="0.0" y="-38.5" />
-              <point x="284.5" y="102.0" />
-              <point x="227.25" y="102.0" />
-              <point x="42.5" y="38.5" />
-            </edge>
-            <edge source="xin.nimil.design.creational.abstractfactory.ComdyStart" target="xin.nimil.design.creational.abstractfactory.Star">
-              <point x="0.0" y="-27.0" />
-              <point x="248.0" y="531.0" />
-              <point x="200.0" y="531.0" />
-              <point x="38.0" y="27.0" />
-            </edge>
-            <edge source="xin.nimil.design.creational.abstractfactory.ActionStar" target="xin.nimil.design.creational.abstractfactory.Star">
-              <point x="0.0" y="-27.0" />
-              <point x="76.0" y="531.0" />
-              <point x="124.0" y="531.0" />
-              <point x="-38.0" y="27.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-123.0" y="219.0" />
-          <SelectedNodes>
-            <node>xin.nimil.design.creational.abstractfactory.ComdyMovieFactory</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/MovieFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovieStarFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovieFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ActionStar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/abstractfactory/ComdyMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/xin.nimil.design.creational.builder">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>xin.nimil.design.creational.builder</OriginalElement>
-          <nodes>
-            <node x="" y="">xin.nimil.design.creational.builder.Course</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="44.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/builder/Course.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -966,9 +686,6 @@
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sing_file">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/singleton/ThreadLocalInstance.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1012,23 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="326">
-            <caret line="45" column="46" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/creational/prototype/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,9 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,40 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsGift.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/ShippingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/QualifuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsPaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1197,13 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/GiftExchangeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/QualifuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1211,6 +875,359 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/ShippingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sing_file">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCakeWithEggSausage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.strutual.decorator.v2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.strutual.decorator.v2</OriginalElement>
+          <nodes>
+            <node x="0.0" y="254.0">xin.nimil.design.strutual.decorator.v2.SourcegeDecorator</node>
+            <node x="182.5" y="0.0">xin.nimil.design.strutual.decorator.v2.ABatterCake</node>
+            <node x="273.0" y="127.0">xin.nimil.design.strutual.decorator.v2.BatterCake</node>
+            <node x="92.0" y="127.0">xin.nimil.design.strutual.decorator.v2.AbstractDecorator</node>
+            <node x="183.0" y="254.0">xin.nimil.design.strutual.decorator.v2.EggDecorator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.strutual.decorator.v2.EggDecorator" target="xin.nimil.design.strutual.decorator.v2.AbstractDecorator">
+              <point x="0.0" y="-38.5" />
+              <point x="263.5" y="229.0" />
+              <point x="212.75" y="229.0" />
+              <point x="40.25" y="38.5" />
+            </edge>
+            <edge source="xin.nimil.design.strutual.decorator.v2.SourcegeDecorator" target="xin.nimil.design.strutual.decorator.v2.AbstractDecorator">
+              <point x="0.0" y="-38.5" />
+              <point x="81.5" y="229.0" />
+              <point x="132.25" y="229.0" />
+              <point x="-40.25" y="38.5" />
+            </edge>
+            <edge source="xin.nimil.design.strutual.decorator.v2.BatterCake" target="xin.nimil.design.strutual.decorator.v2.ABatterCake">
+              <point x="0.0" y="-38.5" />
+              <point x="353.5" y="102.0" />
+              <point x="303.25" y="102.0" />
+              <point x="40.25" y="38.5" />
+            </edge>
+            <edge source="xin.nimil.design.strutual.decorator.v2.AbstractDecorator" target="xin.nimil.design.strutual.decorator.v2.ABatterCake">
+              <point x="0.0" y="-38.5" />
+              <point x="172.5" y="102.0" />
+              <point x="222.75" y="102.0" />
+              <point x="-40.25" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-120.5" y="220.0" />
+          <SelectedNodes>
+            <node>xin.nimil.design.strutual.decorator.v2.EggDecorator</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/BatterCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/ABatterCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/Tesst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/AbstractDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/SourcegeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/BatterCake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/EggDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/GiftExchangeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsGift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/facade/PointsPaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="295">
+            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/xin.nimil.design.strutual.adaptor.classadptor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>xin.nimil.design.strutual.adaptor.classadptor</OriginalElement>
+          <nodes>
+            <node x="253.25" y="104.0">xin.nimil.design.strutual.adaptor.classadptor.ConcurrentTarget</node>
+            <node x="62.75" y="104.0">xin.nimil.design.strutual.adaptor.classadptor.Adapter</node>
+            <node x="0.0" y="0.0">xin.nimil.design.strutual.adaptor.classadptor.Adaptee</node>
+            <node x="219.0" y="0.0">xin.nimil.design.strutual.adaptor.classadptor.Target</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="xin.nimil.design.strutual.adaptor.classadptor.Adapter" target="xin.nimil.design.strutual.adaptor.classadptor.Target">
+              <point x="36.75" y="-27.0" />
+              <point x="173.0" y="79.0" />
+              <point x="255.75" y="79.0" />
+              <point x="-36.75" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.strutual.adaptor.classadptor.ConcurrentTarget" target="xin.nimil.design.strutual.adaptor.classadptor.Target">
+              <point x="0.0" y="-27.0" />
+              <point x="36.75" y="27.0" />
+            </edge>
+            <edge source="xin.nimil.design.strutual.adaptor.classadptor.Adapter" target="xin.nimil.design.strutual.adaptor.classadptor.Adaptee">
+              <point x="-36.75" y="-27.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-152.5" y="111.5" />
+          <SelectedNodes>
+            <node>xin.nimil.design.strutual.adaptor.classadptor.Target</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/ConcurrentTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/ConcurrentTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/AC220.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/DC5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/PowerAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
