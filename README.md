@@ -64,5 +64,5 @@ CGLIB 不能代理使用final修饰符的类进行代理
 Spring中的bean有实现接口时就会使用JDK的动态代理
 当bean没有实现接口时Spring使用CGLIB
 Spring中可以强制指定使用CGLIB  
-lombok和CGLIB都是使用ASM字节码生成技术来进行生成字节码文件
+lombok和CGLIB都是使用ASM字节码生成技术来进行生成字节码文件  
 代理模式的典型应用： Spring的ProxyFactoryBean  getObject方法 Configuration getMapper方法代理
