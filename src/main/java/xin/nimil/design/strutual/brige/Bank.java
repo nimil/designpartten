@@ -5,5 +5,18 @@ package xin.nimil.design.strutual.brige;
  * @Date:2019/1/26
  * @Time:10:40
  */
-public class Bank {
+public abstract class Bank {
+
+    protected Account account;
+
+    public Bank(Account account){
+        this.account = account;
+    }
+
+    abstract Account openAccount();
+
+    abstract void showAccount();
+
+
+
 }

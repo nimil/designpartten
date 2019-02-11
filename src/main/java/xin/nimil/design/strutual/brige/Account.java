@@ -6,4 +6,8 @@ package xin.nimil.design.strutual.brige;
  * @Time:10:35
  */
 public interface Account {
+
+    Account openAccount();
+
+    void showAccountType();
 }
