@@ -66,3 +66,7 @@ Spring中的bean有实现接口时就会使用JDK的动态代理
 Spring中可以强制指定使用CGLIB  
 lombok和CGLIB都是使用ASM字节码生成技术来进行生成字节码文件  
 代理模式的典型应用： Spring的ProxyFactoryBean  getObject方法 Configuration getMapper方法代理
+### 13.模板方法
+定义了一个算法的骨架，并允许子类为一个或多个步骤提供实现  
+钩子方法 是这个模板对子类更进一层的扩展和开放  
+应用：AbstractList  addAll 方法  get 方法  抽象的各种容器类 
