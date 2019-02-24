@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dc37013-5308-424e-a1cb-96da317d525e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/ACourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Fecourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -21,8 +21,9 @@
     <session id="-200593605">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="1" />
@@ -30,7 +31,7 @@
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,7 +52,7 @@
           <entry key="factorymethod" value="1" />
           <entry key="flywight" value="1" />
           <entry key="gengreantion" value="1" />
-          <entry key="java" value="188" />
+          <entry key="java" value="194" />
           <entry key="md" value="11" />
           <entry key="partten" value="1" />
           <entry key="simplefactory" value="2" />
@@ -64,7 +65,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="188" />
+          <entry key="JAVA" value="194" />
           <entry key="Markdown" value="11" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="UML" value="22" />
@@ -73,15 +74,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="11834" />
-          <entry key="md" value="2157" />
+          <entry key="java" value="12420" />
+          <entry key="md" value="2835" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11834" />
-          <entry key="Markdown" value="2157" />
+          <entry key="JAVA" value="12420" />
+          <entry key="Markdown" value="2835" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -89,12 +90,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="377">
-                <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+              <first_editor relative-caret-position="295">
+                <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -102,94 +103,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/ACourse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="403">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding>
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Fecourse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/xin.nimil.design.behavioral.templatemethod">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>xin.nimil.design.behavioral.templatemethod</OriginalElement>
-              <nodes>
-                <node x="0.0" y="219.0">xin.nimil.design.behavioral.templatemethod.JavaCourse</node>
-                <node x="89.5" y="0.0">xin.nimil.design.behavioral.templatemethod.ACourse</node>
-                <node x="212.0" y="219.0">xin.nimil.design.behavioral.templatemethod.Fecourse</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="xin.nimil.design.behavioral.templatemethod.JavaCourse" target="xin.nimil.design.behavioral.templatemethod.ACourse">
-                  <point x="0.0" y="-27.0" />
-                  <point x="96.0" y="194.0" />
-                  <point x="145.75" y="194.0" />
-                  <point x="-56.25" y="84.5" />
-                </edge>
-                <edge source="xin.nimil.design.behavioral.templatemethod.Fecourse" target="xin.nimil.design.behavioral.templatemethod.ACourse">
-                  <point x="0.0" y="-27.0" />
-                  <point x="308.0" y="194.0" />
-                  <point x="258.25" y="194.0" />
-                  <point x="56.25" y="84.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-165.0" y="-29.5" />
-              <SelectedNodes>
-                <node>xin.nimil.design.behavioral.templatemethod.Fecourse</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="603">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
               <folding>
-                <element signature="e#215#216#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -209,6 +162,7 @@
     <findStrings>
       <find>Calender</find>
       <find>getIn</find>
+      <find>interpr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,10 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/ABatterCake.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/BatterCake.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/AbstractDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/SourcegeDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/Tesst.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/decorator/v2/EggDecorator.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adaptee.java" />
@@ -263,11 +213,15 @@
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/proxy/staticproxy/OrderServiceStaticProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/proxy/DynamicProxy/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/proxy/DynamicProxy/OrderServiceDynamicProxy.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Fecourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/ACourse.java" />
         <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Test.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -285,7 +239,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -359,6 +313,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -399,7 +354,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="templatemethod" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
@@ -407,22 +372,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DesignModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
+    <property name="SearchEverywhereHistoryKey" value="NumberInterP&#9;PSI&#9;JAVA://com.sun.scenario.animation.NumberTangentInterpolator&#10;Driver&#9;PSI&#9;JAVA://java.sql.Driver&#10;Calen&#9;PSI&#9;JAVA://java.util.Calendar" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549977147281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550998284664" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -453,7 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xin.nimil.design.behavioral.templatemethod.Test" />
       <module name="DesignModel" />
@@ -467,12 +427,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.strutual.composite.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xin.nimil.design.behavioral.observer.Test" />
       <module name="DesignModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xin.nimil.design.strutual.composite.*" />
+          <option name="PATTERN" value="xin.nimil.design.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -520,19 +480,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -560,12 +520,14 @@
       <workItem from="1548469736945" duration="2974000" />
       <workItem from="1548484757146" duration="352000" />
       <workItem from="1549880190931" duration="5562000" />
-      <workItem from="1549975882074" duration="1264000" />
+      <workItem from="1549975882074" duration="2501000" />
+      <workItem from="1550581600573" duration="1511000" />
+      <workItem from="1550993809525" duration="4400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60393000" />
+    <option name="totallyTimeSpent" value="67541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,21 +539,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3016086" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -601,6 +562,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -640,48 +602,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adaptee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/ConcurrentTarget.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Target.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/objectadaptor/Adaptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/adaptor/classadptor/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/flywight/Emplyee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1025,16 +945,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/proxy/DynamicProxy.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="377">
-            <caret line="66" column="38" lean-forward="true" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/strutual/proxy/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1046,9 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,9 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,9 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1107,17 +1008,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram/D:/codes/DesignModel/src/main/java/xin/nimil/design/behavioral/templatemethod">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1126,23 +1016,13 @@
           <nodes />
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="521.0" y="325.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="521.0" y="326.0" />
           <SelectedNodes />
           <Categories>
             <Category>All</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
           <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Fecourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,7 +1051,7 @@
               <point x="56.25" y="84.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-165.0" y="-29.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-165.0" y="-29.0" />
           <SelectedNodes>
             <node>xin.nimil.design.behavioral.templatemethod.Fecourse</node>
           </SelectedNodes>
@@ -1185,18 +1065,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/ACourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="350">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,6 +1074,89 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/Fecourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/templatemethod/JavaCourse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/myStydyRode/java8/javafx-src.zip!/com/sun/scenario/animation/NumberTangentInterpolator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="81" column="33" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/myStydyRode/java8/src.zip!/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92360">
+          <caret line="1362" column="35" selection-start-line="1362" selection-start-column="35" selection-end-line="1362" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xin/nimil/design/behavioral/observer/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="295">
+            <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
